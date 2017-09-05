@@ -1,0 +1,9 @@
+framework module SenderFramework {
+  umbrella header "SenderFramework.h"
+  export *
+  module * { export * }
+}
+
+module SenderFramework.Swift {
+    header "SenderFramework-Swift.h"
+}
